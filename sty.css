@@ -1,0 +1,28 @@
+div{
+    
+    content-visibility: initial;
+    border: 0.1px groove black;
+    padding: 0px;
+    align-items: center;
+
+
+}
+pre{
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+}
+.categories{
+display: inline-block;
+margin: -5px;
+
+
+}
+.categories2{
+    display: inline-block;
+    margin: -1px;
+}
+.language_permalink{
+    display: inline-block;
+    margin-left: -5px;
+}
