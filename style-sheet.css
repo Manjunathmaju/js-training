@@ -1,29 +1,62 @@
 div{
     display: inline-flexbox;
     
-    padding: 10px;
+   /* padding: 10px;*/
     align-items: center;
     color: rgba(31, 138, 4, 0.979);
     align-items: center;
     justify-content: center;
-    
     border: 0.1px groove rgb(253, 236, 0);
-
-
+  
 }
-.categories:hover{
+
+#catid{
+    padding: 20px;
+    margin-left: 10%;
+}
+.outdiv{
+    width: 50%;
+    margin-left: 20%;
+}
+.outdiv:hover{
+    box-shadow:  10px 10px 10px   #000000;
+}
+.paraclasename{
+    text-shadow: 1px 1px red;
+    text-align: center;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 500px;
+}
+ #test0,#test1,#test2,#test3,#test4,#test5{
+    display: inline-block;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px;
+    align-tracks: center; */
+} 
+#removetext{
+    text-emphasis-color: red;
+  
+    margin-left: %;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    display: table-cell
+}
+/* .categories:hover{
     background-image: url(image/web.jpg);
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 body{
     background-color: rgb(204, 241, 229);
 }
-pre:hover{
+/* pre:hover{
     color:red;
     text-shadow: 30px;
     font-weight: bolder;
-}
+} */
 pre{
     color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +74,7 @@ pre{
 .categories{
    border-color: black;
 display: inline-block;
-margin-left: 160px;
+/*margin-left: 160px;*/
 align-items: center;
 justify-content: center;
 text-align: center;
