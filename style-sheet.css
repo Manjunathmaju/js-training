@@ -3,43 +3,53 @@ div{
     
    /* padding: 10px;*/
     align-items: center;
-    color: rgba(31, 138, 4, 0.979);
+    /* color: rgba(31, 138, 4, 0.979); */
     align-items: center;
     justify-content: center;
-    border: 0.1px groove rgb(253, 236, 0);
+    
   
 }
 
 #catid{
-    padding: 20px;
-    margin-left: 10%;
+    padding: 10px;
+    margin-left: 5%;
+    
 }
 .outdiv{
     width: 50%;
     margin-left: 20%;
+    border: 0.1px groove rgb(253, 236, 0);
 }
-.outdiv:hover{
-    box-shadow:  10px 10px 10px   #000000;
+#test0:hover,#test1:hover,#test2:hover,#test3:hover,#test4:hover,#removetext:hover{
+    box-shadow:  10px 10px 10px   rgb(124, 213, 240);
 }
+
 .paraclasename{
     text-shadow: 1px 1px red;
     text-align: center;
     color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: 500px;
+   
 }
- #test0,#test1,#test2,#test3,#test4,#test5{
-    display: inline-block;
+ #test0,#test1,#test2,#test3,#test4{
+    display: inline-flex;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding: 10px;
-    align-tracks: center; */
+    border: 0.1px groove rgb(253, 236, 0);
+     padding: 10px;
+    /*align-tracks: center; */
 } 
 #removetext{
     text-emphasis-color: red;
-  
-    margin-left: %;
+    margin:10px ;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: rgb(240, 3, 114);
+    background-color: aliceblue;
+    padding: 10px 10px;
     font-family: 'Courier New', Courier, monospace;
+    border: 0.1px groove rgb(228, 14, 78);
 }
 li{
     display: table-cell
